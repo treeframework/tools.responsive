@@ -1,18 +1,21 @@
 {
   "name": "tree-responsive-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/treeframework/tools.responsive",
   "authors": [
     "Harry Roberts <harry@csswizardry.com>",
     "Ilia Kolev <info@iliakolev.com>"
   ],
   "description": "Responsive tooling.",
-  "main": "_responsive.scss",
+  "main": "_tools.responsive.scss",
+  "ignore": [
+    "*.md"
+  ],
   "keywords": [
     "css"
   ],
   "license": "Apache",
   "dependencies": {
-    "tree-responsive-settings": "latest"
+    "tree-responsive-settings": "~0.1.1"
   }
 }
