@@ -58,8 +58,8 @@ $tree-responsive-settings: false !default;
 
     }
 
-    // If the user specifies a non-exitent alias, send them a warning.
-    @if $breakpoint-found == false{
+    // If the user specifies a non-existent alias, send them a warning.
+    @if $breakpoint-found == false {
         @warn "Oops! Breakpoint ‘#{$mq}’ does not exist."
     }
 
