@@ -4,7 +4,15 @@ This module just sets up our media query mixin.
 
 Install using Bower:
 
-    $ bower install --save tree-responsive-tools
+```sh
+$ bower install tree-responsive-tools --save
+```
+
+Install using npm:
+
+```sh
+$ npm install tree-responsive-tools --save
+```
 
 ## Credits
 
