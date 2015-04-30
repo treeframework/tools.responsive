@@ -1,23 +1,23 @@
 {
   "name": "tree-responsive-tools",
-  "version": "0.1.4",
   "description": "Responsive tooling.",
+  "version": "0.1.5",
+  "author": "Ilia Kolev <info@iliakolev.com>",
+  "bugs": {
+    "url": "https://github.com/treeframework/tools.responsive/issues"
+  },
+  "dependencies": {
+    "tree-responsive-settings": "~0.1.4"
+  },
+  "homepage": "https://github.com/treeframework/tools.responsive",
+  "keywords": [
+    "css",
+    "oocss"
+  ],
+  "license": "MIT",
   "main": "_tools.responsive.scss",
   "repository": {
     "type": "git",
     "url": "https://github.com/treeframework/tools.responsive.git"
-  },
-  "author": "Ilia Kolev <info@iliakolev.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/treeframework/tools.responsive/issues"
-  },
-  "homepage": "https://github.com/treeframework/tools.responsive",
-  "keywords": [
-    "oocss",
-    "css"
-  ],
-  "dependencies": {
-    "tree-responsive-settings": "~0.1.2"
   }
 }
