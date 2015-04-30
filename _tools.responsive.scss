@@ -1,12 +1,30 @@
-// *************************************
+// =============================================================================
 //
-//   #TOOLS-RESPONSIVE
+// Name:          Responsive-tools
 //
-// *************************************
+// Description:   Sets up our media query mixin.
+//
+// Markup:
+//
+// .foo {
+//     font-size: 18px;
+//
+//     @include media-query(palm) {
+//         font-size: 14px;
+//     }
+//
+// }
+//
+// =============================================================================
+
+
+
+
 
 // Here we set a variable assuming that responsive settings are not set
 // globally. If they have been previously been defined, the following variable
 // will be overriden and will be set to `true`.
+
 $tree-responsive-settings: false !default;
 
 @if ($tree-responsive-settings == false) {
@@ -16,20 +34,6 @@ $tree-responsive-settings: false !default;
 
 
 
-
-// A simple mixin to quickly generate whole media queries from the aliases and
-// conditions defined in `settings.responsive/_responsive.scss`.
-//
-// Usage:
-//
-// .foo {
-//     color: green;
-//
-//     @include media-query(palm) {
-//         color: red;
-//     }
-//
-// }
 
 @mixin media-query($mq) {
 
